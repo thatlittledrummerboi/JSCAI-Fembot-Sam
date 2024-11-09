@@ -1,5 +1,5 @@
 {
-    "type": "module",
+    "type": "commonjs",
     "main": "main.js",
     "name": "jscai-fembot-sam",
     "version": "1.0.0",
@@ -12,7 +12,7 @@
     "description": "",
     "dependencies": {
         "discord.js": "^14.16.3",
-        "firebase": "^11.0.1",
-        "jscai-fembot-sam": "file:"
+        "jscai-fembot-sam": "file:",
+        "node_characterai": "^1.2.7"
     }
 }
